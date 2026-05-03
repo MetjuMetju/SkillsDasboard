@@ -2,25 +2,229 @@
 <html>
 <head>
     <title>Skills Dashboard</title>
-    <link rel="stylesheet" href="/style.css">
+
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            color: white;
+            font-family: monospace;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 72px;
+            color: #00ff99;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 52px;
+            color: #00ff99;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 34px;
+            font-weight: 900;
+            color: #00ffaa;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #00ff99;
+            padding-bottom: 5px;
+        }
+
+        .item {
+            font-size: 20px;
+            color: #ffff66;
+            padding-left: 25px;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 
 <body>
 
-<canvas id="matrix"></canvas>
+<h1>Skills Dashboard</h1>
+<h2>TECHNOLOGIES & AREAS</h2>
 
-<!-- LEVEL 1 -->
-<h1 class="title-1">Skills Dashboard</h1>
+<!-- ================= OPERATING SYSTEMS ================= -->
+<div class="section">
+    <div class="section-title">OPERATING_SYSTEMS</div>
+    <div class="item">Linux</div>
+    <div class="item">Unix</div>
+    <div class="item">Solaris</div>
+    <div class="item">AIX</div>
+    <div class="item">HP-UX</div>
+    <div class="item">Windows Server</div>
+    <div class="item">HP Tru64</div>
+    <div class="item">SunOS</div>
+</div>
 
-<!-- LEVEL 2 -->
-<h2 class="title-2">TECHNOLOGIES & AREAS</h2>
+<!-- ================= LINUX & ADMIN ================= -->
+<div class="section">
+    <div class="section-title">LINUX_AND_SYSTEM_ADMIN</div>
+    <div class="item">SSH</div>
+    <div class="item">NGINX</div>
+    <div class="item">Fail2Ban</div>
+    <div class="item">Time Synchronization NTS</div>
+    <div class="item">System Administration</div>
+    <div class="item">Kernel Operations</div>
+    <div class="item">Patching</div>
+    <div class="item">Server Provisioning</div>
+    <div class="item">Decommissioning</div>
+</div>
 
-<!-- IMPORTANT: MUST EXIST EXACTLY LIKE THIS -->
-<div id="output">LOADING...</div>
+<!-- ================= NETWORKING ================= -->
+<div class="section">
+    <div class="section-title">NETWORKING_AND_CONNECTIVITY</div>
+    <div class="item">Networking Basics</div>
+    <div class="item">Routers</div>
+    <div class="item">Switches</div>
+    <div class="item">Network Troubleshooting</div>
+    <div class="item">Certificate Management</div>
+    <div class="item">DNS</div>
+    <div class="item">VPN Connectivity</div>
+</div>
 
-<!-- SCRIPTS (MUST STAY HERE) -->
-<script src="/app.js" defer></script>
-<script src="/matrix.js" defer></script>
+<!-- ================= SECURITY ================= -->
+<div class="section">
+    <div class="section-title">SECURITY_AND_SIEM</div>
+    <div class="item">SIEM</div>
+    <div class="item">System Hardening</div>
+    <div class="item">Log Analysis</div>
+    <div class="item">Access Control</div>
+    <div class="item">Security Patching</div>
+    <div class="item">Incident Response</div>
+</div>
+
+<!-- ================= CONTAINERS ================= -->
+<div class="section">
+    <div class="section-title">CONTAINERS_AND_PLATFORMS</div>
+    <div class="item">OpenShift</div>
+    <div class="item">Kubernetes</div>
+    <div class="item">Docker</div>
+    <div class="item">Container Orchestration</div>
+    <div class="item">Cluster Management</div>
+    <div class="item">Helm</div>
+</div>
+
+<!-- ================= AUTOMATION ================= -->
+<div class="section">
+    <div class="section-title">INFRASTRUCTURE_AUTOMATION</div>
+    <div class="item">Ansible</div>
+    <div class="item">Kubespray</div>
+    <div class="item">Terraform</div>
+    <div class="item">Infrastructure as Code</div>
+    <div class="item">Automation Scripting</div>
+    <div class="item">UC4 Job Scheduling</div>
+    <div class="item">HP Operations Orchestration</div>
+</div>
+
+<!-- ================= PROGRAMMING ================= -->
+<div class="section">
+    <div class="section-title">PROGRAMMING_AND_SCRIPTING</div>
+    <div class="item">Python</div>
+    <div class="item">Shell Scripting</div>
+    <div class="item">Bash</div>
+    <div class="item">KSH</div>
+    <div class="item">PowerShell</div>
+    <div class="item">Java</div>
+    <div class="item">PHP</div>
+    <div class="item">SQL</div>
+    <div class="item">Logstash Pipeline DSL</div>
+    <div class="item">JSON</div>
+    <div class="item">YAML</div>
+</div>
+
+<!-- ================= AI ================= -->
+<div class="section">
+    <div class="section-title">AI_AND_AUTOMATION</div>
+    <div class="item">AI Concepts</div>
+    <div class="item">Process Automation</div>
+    <div class="item">IT Automation Workflows</div>
+</div>
+
+<!-- ================= WEB ================= -->
+<div class="section">
+    <div class="section-title">WEB_AND_APP_SERVERS</div>
+    <div class="item">Apache Server</div>
+    <div class="item">Nginx</div>
+    <div class="item">WebLogic</div>
+    <div class="item">WebSphere</div>
+    <div class="item">Application Servers</div>
+</div>
+
+<!-- ================= DATABASES ================= -->
+<div class="section">
+    <div class="section-title">DATABASES</div>
+    <div class="item">MySQL</div>
+    <div class="item">PostgreSQL</div>
+    <div class="item">SQL Databases</div>
+    <div class="item">Database Administration</div>
+</div>
+
+<!-- ================= MONITORING ================= -->
+<div class="section">
+    <div class="section-title">MONITORING_AND_OBSERVABILITY</div>
+    <div class="item">Zabbix</div>
+    <div class="item">ELK Stack</div>
+    <div class="item">Elasticsearch</div>
+    <div class="item">Logstash</div>
+    <div class="item">Kibana</div>
+    <div class="item">Log Management</div>
+    <div class="item">System Monitoring</div>
+    <div class="item">Infrastructure Monitoring</div>
+    <div class="item">Mail Reporting</div>
+</div>
+
+<!-- ================= DEVOPS ================= -->
+<div class="section">
+    <div class="section-title">DEVOPS_AND_DOCUMENTATION</div>
+    <div class="item">Git</div>
+    <div class="item">GitLab CI/CD</div>
+    <div class="item">CI/CD Basics</div>
+    <div class="item">VS Code</div>
+    <div class="item">MkDocs</div>
+    <div class="item">Obsidian</div>
+    <div class="item">Version Control</div>
+</div>
+
+<!-- ================= ENTERPRISE ================= -->
+<div class="section">
+    <div class="section-title">ENTERPRISE_SYSTEMS_AND_TOOLS</div>
+    <div class="item">ServiceNow</div>
+    <div class="item">Jira</div>
+    <div class="item">SAP Integration</div>
+    <div class="item">Incident Management</div>
+    <div class="item">Change Management</div>
+    <div class="item">Problem Management</div>
+</div>
+
+<!-- ================= VIRTUALIZATION ================= -->
+<div class="section">
+    <div class="section-title">VIRTUALIZATION_AND_STORAGE</div>
+    <div class="item">VMware vSphere</div>
+    <div class="item">Virtualization</div>
+    <div class="item">Storage Management</div>
+    <div class="item">Clustered Systems</div>
+    <div class="item">Veritas</div>
+    <div class="item">HP Serviceguard</div>
+</div>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<div class="section">
+    <div class="section-title">LEARNINGS_FOR_CERTIFICATIONS</div>
+    <div class="item">RedHat</div>
+    <div class="item">Linux Foundation</div>
+    <div class="item">CKA</div>
+    <div class="item">AWS Cloud Practices</div>
+    <div class="item">DevOps Fundamentals</div>
+</div>
 
 </body>
 </html>
