@@ -1,7 +1,5 @@
 console.log("APP LOADED");
-
 document.addEventListener("DOMContentLoaded", async () => {
-
     const el = document.getElementById("output");
 
     try {
