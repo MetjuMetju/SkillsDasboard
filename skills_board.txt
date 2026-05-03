@@ -1,0 +1,128 @@
+# OPERATING_SYSTEMS
+Linux
+Unix
+Solaris
+AIX
+HP-UX
+Windows Server
+HP Tru64
+SunOS
+
+# LINUX_AND_SYSTEM_ADMIN
+SSH
+NGINX
+Fail2Ban
+Time_Synchronization_NTS
+System_Administration
+Kernel_Operations
+Patching
+Server_Provisioning
+Decommissioning
+
+# NETWORKING_AND_CONNECTIVITY
+Networking_Basics
+Routers
+Switches
+Network_Troubleshooting
+Certificate_Management
+DNS
+VPN_Connectivity
+
+# SECURITY_AND_SIEM
+SIEM
+System_Hardening
+Log_Analysis
+Access_Control
+Security_Patching
+Incident_Response
+
+# CONTAINERS_AND_PLATFORMS
+OpenShift
+Kubernetes
+Docker
+Container_Orchestration
+Cluster_Management
+Helm
+
+# INFRASTRUCTURE_AUTOMATION
+Ansible
+Kubespray
+Terraform
+Infrastructure_as_Code
+Automation_Scripting
+UC4_Job_Scheduling
+HP_Operations_Orchestration
+
+# PROGRAMMING_AND_SCRIPTING
+Python
+Shell_Scripting
+Bash
+KSH
+PowerShell
+Java
+PHP
+SQL
+Logstash_Pipeline_DSL
+JSON
+YAML
+
+# AI_AND_AUTOMATION
+AI_Concepts
+Process_Automation
+IT_Automation_Workflows
+
+# WEB_AND_APP_SERVERS
+Apache_Server
+Nginx
+WebLogic
+WebSphere
+Application_Servers
+
+# DATABASES
+MySQL
+PostgreSQL
+SQL_Databases
+Database_Administration
+
+# MONITORING_AND_OBSERVABILITY
+Zabbix
+ELK_Stack
+Elasticsearch
+Logstash
+Kibana
+Log_Management
+System_Monitoring
+Infrastructure_Monitoring
+Mail_Reporting
+
+# DEVOPS_AND_DOCUMENTATION
+Git
+GitLab_CI_CD
+CI_CD_Basics
+VS_Code
+MkDocs
+Obsidian
+Version_Control
+
+# ENTERPRISE_SYSTEMS_AND_TOOLS
+ServiceNow
+Jira
+SAP_Integration
+Enterprise_Incident_Management
+Change_Management
+Problem_Management
+
+# VIRTUALIZATION_AND_STORAGE
+VMware_vSphere
+Virtualization
+Storage_Management
+Clustered_Systems
+Veritas
+HP_Serviceguard
+
+# LEARNINGS_FOR_CERTIFICATIONS
+RedHat
+Linux_Foundation
+CKA
+Cloud_Practices_AWS
+DevOps_Fundamentals
