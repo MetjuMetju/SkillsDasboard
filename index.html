@@ -6,43 +6,54 @@
     <style>
         body {
             margin: 0;
-            background: black;
-            color: white;
-            font-family: monospace;
+            background: #0b0f14;
+            color: #d6d6d6;
+            font-family: Arial, Helvetica, sans-serif;
             padding: 20px;
+            line-height: 1.4;
         }
 
+        /* MAIN TITLE */
         h1 {
-            font-size: 72px;
-            color: #00ff99;
-            margin-bottom: 10px;
+            font-size: 22px;
+            font-weight: 600;
+            color: #4de1a1;
+            margin: 0 0 4px 0;
         }
 
+        /* SUB TITLE */
         h2 {
-            font-size: 52px;
-            color: #00ff99;
-            margin-bottom: 30px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #aab3bd;
+            margin: 0 0 18px 0;
         }
 
+        /* SECTION BLOCK */
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 14px;
         }
 
+        /* CATEGORY TITLE */
         .section-title {
-            font-size: 34px;
-            font-weight: 900;
-            color: #00ffaa;
-            margin-bottom: 10px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #66e0ff;
+            margin-bottom: 6px;
             text-transform: uppercase;
-            border-bottom: 1px solid #00ff99;
-            padding-bottom: 5px;
+            letter-spacing: 0.6px;
         }
 
+        /* ITEMS */
         .item {
-            font-size: 20px;
-            color: #ffff66;
-            padding-left: 25px;
-            line-height: 1.6;
+            font-size: 12.5px;
+            color: #d6d6d6;
+            padding-left: 14px;
+        }
+
+        .item::before {
+            content: "• ";
+            color: #4de1a1;
         }
     </style>
 </head>
@@ -65,7 +76,7 @@
     <div class="item">SunOS</div>
 </div>
 
-<!-- ================= LINUX & ADMIN ================= -->
+<!-- ================= LINUX & SYSTEM ADMIN ================= -->
 <div class="section">
     <div class="section-title">LINUX_AND_SYSTEM_ADMIN</div>
     <div class="item">SSH</div>
